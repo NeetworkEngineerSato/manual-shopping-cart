@@ -51,7 +51,6 @@ function TitleField(props: { cartId: EntityId; cartTitle: string }) {
         }
       }}
       onFocus={(e) => e.target.select()}
-      variant="outlined"
       fullWidth
     />
   );
